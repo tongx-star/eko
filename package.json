@@ -18,8 +18,8 @@
   "author": "你的名字",
   "license": "MIT",
   "dependencies": {
-    "@eko-ai/eko": "^latest",
-    "@eko-ai/eko-nodejs": "^latest",
+    "@eko-ai/eko": "*",
+    "@eko-ai/eko-nodejs": "*",
     "dotenv": "^16.0.0"
   },
   "engines": {
