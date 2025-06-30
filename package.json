@@ -1,0 +1,28 @@
+{
+  "name": "new_eko",
+  "version": "1.0.0",
+  "description": "基于Eko AI的表单自动填写项目",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "eko",
+    "ai",
+    "automation",
+    "browser",
+    "form"
+  ],
+  "author": "你的名字",
+  "license": "MIT",
+  "dependencies": {
+    "@eko-ai/eko": "^latest",
+    "@eko-ai/eko-nodejs": "^latest",
+    "dotenv": "^16.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
