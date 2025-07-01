@@ -6,23 +6,41 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "node --watch index.js"
+    "dev": "node --watch index.js",
+    "debug": "node --inspect index.js",
+    "test": "node --test",
+    "clean": "rm -rf screenshots logs node_modules/.cache",
+    "check": "node --check index.js",
+    "performance": "node --prof index.js"
   },
   "keywords": [
     "eko",
     "ai",
     "automation",
     "browser",
-    "form"
+    "form",
+    "rpa",
+    "web-automation"
   ],
   "author": "你的名字",
   "license": "MIT",
   "dependencies": {
-    "@eko-ai/eko": "*",
-    "@eko-ai/eko-nodejs": "*",
+    "@eko-ai/eko": "^2.1.7",
+    "@eko-ai/eko-nodejs": "^2.1.7",
     "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
-  }
-} 
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "bugs": {
+    "url": "."
+  },
+  "homepage": "."
+}
